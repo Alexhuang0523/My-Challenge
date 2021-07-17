@@ -29,7 +29,7 @@ Class Star {
   }
   
   void show() {
-    fill(255);
+    fill(255);   //Colour
     noStroke();  //Without Outline
     //Making those stars moving faster and faster 
     float sx = map(x / z, 0, 1, 0, width);   //Concept of moving faster and faster
